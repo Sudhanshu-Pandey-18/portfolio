@@ -385,6 +385,43 @@ p {
     content: " →";
 }
 
+/* Other projects */
+.subheading {
+    font-size: 1.1rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 56px 0 20px;
+}
+
+.mini-project {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 28px;
+    align-items: start;
+    padding: 20px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.mini-image img {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.mini-project h3 {
+    margin-bottom: 0.4em;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.9em;
+    background: var(--accent-soft);
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+
 /* Experience */
 .timeline {
     list-style: none;
@@ -476,6 +513,7 @@ p {
 
     .hero,
     .project,
+    .mini-project,
     .about-grid {
         grid-template-columns: 1fr;
         gap: 28px;
