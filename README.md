@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal website: https://sudhanshu-pandey-18.github.io
+My personal website: https://sudhanshu-pandey-18.github.io/portfolio/
 
 A single page with my projects, experience, publication, skills and contact links. Built with plain HTML, CSS and JavaScript, no framework or build step, and hosted on GitHub Pages.
 
