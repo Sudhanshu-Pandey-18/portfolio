@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Pandey | AI/ML Engineer</title>
+    <meta name="description"
+        content="Sudhanshu Pandey, AI/ML Engineer. Machine learning projects in time-series forecasting and predictive maintenance, experience, publications and contact.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sudhanshu Pandey | AI/ML Engineer">
+    <meta property="og:description"
+        content="Machine learning projects in time-series forecasting and predictive maintenance.">
+    <meta property="og:image" content="assets/img/traffic-dashboard.jpg">
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main">
+            <a href="#top" class="logo">Sudhanshu Pandey</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero container" id="top">
+            <div class="hero-text">
+                <p class="eyebrow">AI/ML Engineer</p>
+                <h1>Hi, I'm Sudhanshu.</h1>
+                <p class="lead">I build machine learning systems end to end, from data cleaning and feature
+                    engineering to validated models and small apps people can actually use. Most of my recent work is
+                    in time-series forecasting and predictive maintenance.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View projects</a>
+                    <a href="https://github.com/Sudhanshu-Pandey-18" class="btn btn-ghost" target="_blank"
+                        rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com/in/sudhanshu-pandey-b36194260" class="btn btn-ghost" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <img src="assets/img/profile.jpg" alt="Portrait of Sudhanshu Pandey" width="711" height="800">
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <h2>About</h2>
+            <div class="about-grid">
+                <div>
+                    <p>I graduated with a B.Tech in Computer Science &amp; Engineering from BBDNIIT, Lucknow in 2026.
+                        During my final year I joined Algoforge Studios as a Data Science Intern and was promoted to
+                        AI/ML Engineer within six months.</p>
+                    <p>I like problems where the first answer looks too good. On my traffic forecasting project the
+                        first model scored R² 0.99, which turned out to be data leakage. Fixing the validation brought
+                        it down to an honest 0.87, and that version is the one I trust.</p>
+                </div>
+                <ul class="facts">
+                    <li><span>Based in</span> Varanasi, India</li>
+                    <li><span>Focus</span> Machine learning, forecasting, explainable AI</li>
+                    <li><span>Also</span> Web development (HTML, CSS, JavaScript, React, Node.js)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section container" id="projects">
+            <h2>Projects</h2>
+
+            <article class="project">
+                <a class="project-image" href="https://github.com/Sudhanshu-Pandey-18/Smart-City-Traffic-Prediction"
+                    target="_blank" rel="noopener">
+                    <img src="assets/img/traffic-dashboard.jpg"
+                        alt="Streamlit dashboard showing a 24-hour traffic forecast for junction 1 with SHAP explanation"
+                        loading="lazy" width="1400" height="950">
+                </a>
+                <div class="project-body">
+                    <p class="project-meta">Academic major project · Team of 3 · Published</p>
+                    <h3>Smart City Traffic Forecasting</h3>
+                    <p>Forecasts hourly traffic at 4 city junctions up to 4 months ahead from 48,120 sensor records,
+                        with a Streamlit dashboard for congestion alerts.</p>
+                    <ul>
+                        <li>Per-junction growth trend combined with Gradient Boosting on cyclical calendar features</li>
+                        <li>Found and fixed target leakage; validated with 3 rolling-origin backtests</li>
+                        <li>R² 0.87, 16% lower error than Linear Regression and 10% lower than a seasonal-naive
+                            baseline</li>
+                    </ul>
+                    <ul class="tags" aria-label="Technologies">
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>XGBoost</li>
+                        <li>Plotly</li>
+                        <li>SHAP</li>
+                        <li>Streamlit</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Sudhanshu-Pandey-18/Smart-City-Traffic-Prediction" target="_blank"
+                            rel="noopener">Code</a>
+                        <a href="https://www.irjmets.com/paperdetail.php?paperId=daabde00acb9d7584a8eea8305c00984" target="_blank" rel="noopener">Paper</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project">
+                <a class="project-image"
+                    href="https://github.com/Sudhanshu-Pandey-18/Hospital-Equipment-RUL-Prediction" target="_blank"
+                    rel="noopener">
+                    <img src="assets/img/hospital-rul-app.jpg"
+                        alt="Streamlit app predicting 8.11 years of remaining useful life with a low risk rating"
+                        loading="lazy" width="1400" height="950">
+                </a>
+                <div class="project-body">
+                    <p class="project-meta">Personal project</p>
+                    <h3>Hospital Equipment RUL Prediction</h3>
+                    <p>Predicts the remaining useful life of hospital equipment so maintenance can be planned before a
+                        breakdown, with a Streamlit app that shows a risk level and explains each prediction.</p>
+                    <ul>
+                        <li>OLS p-values, VIF and backward elimination narrowed 25 attributes to 3 real drivers</li>
+                        <li>Compared 6 models with 5-fold CV; tuned Gradient Boosting with GridSearchCV</li>
+                        <li>Error down from 0.89 years (age-only baseline) to 0.016 years on a simulated 50,000-record
+                            dataset</li>
+                    </ul>
+                    <ul class="tags" aria-label="Technologies">
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>Statsmodels</li>
+                        <li>SHAP</li>
+                        <li>Streamlit</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Sudhanshu-Pandey-18/Hospital-Equipment-RUL-Prediction"
+                            target="_blank" rel="noopener">Code</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section container" id="experience">
+            <h2>Experience</h2>
+            <ol class="timeline">
+                <li>
+                    <div class="timeline-head">
+                        <h3>AI/ML Engineer <span>· Algoforge Studios</span></h3>
+                        <p class="when">Aug 2025 – Feb 2026 · Remote</p>
+                    </div>
+                    <p class="note">Joined as a Data Science Intern and was promoted within six months.</p>
+                    <ul>
+                        <li>Built end-to-end ML pipelines covering preprocessing, feature engineering, training and
+                            evaluation</li>
+                        <li>Improved model accuracy by 15% through feature engineering and hyperparameter tuning</li>
+                        <li>Validated models with cross-validation and metrics such as F1, ROC-AUC, RMSE and R²</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="timeline-head">
+                        <h3>Intern <span>· Edunet Foundation</span></h3>
+                        <p class="when">Dec 2024 – Jan 2025 · Remote</p>
+                    </div>
+                    <p class="note">Green Skills &amp; Sustainable AI Program</p>
+                    <ul>
+                        <li>Built an NLP chatbot with Logistic Regression for intent classification</li>
+                        <li>Wrote the text preprocessing (tokenization, lemmatization, vectorization) and a Streamlit
+                            front end</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section class="section container" id="publication">
+            <h2>Publication</h2>
+            <div class="card">
+                <h3>Smart City Traffic Prediction Using Machine Learning</h3>
+                <p>S. Pandey, N. K. Sen, S. Singh, W. Ahmad. <em>International Research Journal of Modernization in
+                        Engineering, Technology and Science (IRJMETS)</em>, Vol. 8, Issue 5, May 2026.</p>
+                <a href="https://www.irjmets.com/paperdetail.php?paperId=daabde00acb9d7584a8eea8305c00984" target="_blank" rel="noopener">Read the paper on IRJMETS</a>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>Languages</h3>
+                    <p>Python, SQL, Java, JavaScript</p>
+                </div>
+                <div class="card">
+                    <h3>Machine learning</h3>
+                    <p>Regression, classification, clustering, time-series forecasting, NLP, feature engineering,
+                        cross-validation, hyperparameter tuning, explainable AI</p>
+                </div>
+                <div class="card">
+                    <h3>Libraries</h3>
+                    <p>Scikit-learn, XGBoost, Statsmodels, Pandas, NumPy, SHAP, Matplotlib, Seaborn, Plotly</p>
+                </div>
+                <div class="card">
+                    <h3>Tools &amp; web</h3>
+                    <p>Streamlit, Git, GitHub, Jupyter, VS Code, HTML, CSS, React, Node.js, Express</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="education">
+            <h2>Education &amp; certifications</h2>
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>B.Tech, Computer Science &amp; Engineering</h3>
+                    <p>Babu Banarasi Das Northern India Institute of Technology, Lucknow</p>
+                    <p class="when">2022 – 2026 · CGPA 8.0/10</p>
+                </div>
+                <div class="card">
+                    <h3>Certifications</h3>
+                    <ul class="plain">
+                        <li>Ultimate Web Development Course, CodeWithHarry (2026)</li>
+                        <li>Applied Data Science with Python, IBM</li>
+                        <li>Data Analytics Job Simulation, Deloitte Australia (Forage)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container contact" id="contact">
+            <h2>Contact</h2>
+            <p>I'm looking for AI/ML and data science roles. The quickest way to reach me is email.</p>
+            <div class="hero-actions">
+                <a href="mailto:sudhanshupandey18sep@gmail.com" class="btn btn-primary">sudhanshupandey18sep@gmail.com</a>
+                <a href="https://linkedin.com/in/sudhanshu-pandey-b36194260" class="btn btn-ghost" target="_blank"
+                    rel="noopener">LinkedIn</a>
+                <a href="https://github.com/Sudhanshu-Pandey-18" class="btn btn-ghost" target="_blank"
+                    rel="noopener">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year">2026</span> Sudhanshu Pandey</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
